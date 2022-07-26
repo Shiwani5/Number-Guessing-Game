@@ -1,0 +1,21 @@
+i=0
+while i<=9:
+    if i<=9:
+        print("Number of chances left:",9-i)
+        i=i+1
+        n=18
+        a=int(input("enter number:"))
+        if a<18:
+            print("Take greater number than",a)
+        elif a>18:
+            print("Take smallest number than",a)
+
+
+        elif a == 18:
+            print(n, "You win")
+            break
+
+        else:
+            print("Game over")
+if (i>9):
+    print("Game Over")
